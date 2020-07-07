@@ -1,0 +1,38 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: leyou-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 5  #每5秒拉取一次列表
+  instance:
+    lease-renewal-interval-in-seconds: 10 #每10秒发送一次心跳
+    lease-expiration-duration-in-seconds: 30  #30秒不发送心跳就失效
+zuul:
+  prefix: /api
+  #转发时携带域名头信息
+  add-host-header: true
+  #忽略敏感头信息（默认将cookie相关的都忽略了，不符合我们无状态登录，覆盖掉默认的配置，将这个参数设置成空，不忽略任何东西）
+  sensitive-headers:
+  routes:
+    item-service: /item/**
+    search-service: /search/**
+    user-service: /user/**
+    auth-service: /auth/**
+    cart-service: /cart/**
+leyou:
+  jwt:
+    pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: LY_TOKEN
+  filter:
+    allowPaths:
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item
+

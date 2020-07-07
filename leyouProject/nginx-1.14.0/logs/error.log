@@ -1,0 +1,34 @@
+2020/06/14 18:25:01 [notice] 18596#17680: signal process started
+2020/06/14 18:25:01 [emerg] 3164#11504: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/14 18:29:25 [notice] 15064#8112: signal process started
+2020/06/14 18:29:25 [emerg] 3164#11504: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/14 18:30:17 [notice] 3868#1940: signal process started
+2020/06/14 19:43:35 [notice] 5656#18328: signal process started
+2020/06/14 19:43:35 [emerg] 732#11296: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/14 19:48:08 [emerg] 19044#2864: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/14 21:53:09 [notice] 11936#1208: signal process started
+2020/06/14 21:53:09 [emerg] 732#11296: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/14 23:41:08 [notice] 1776#13620: signal process started
+2020/06/15 17:41:08 [emerg] 20244#3112: unexpected "}" in D:\MyGit\myleyou\leyouProject\nginx-1.14.0/conf/nginx.conf:83
+2020/06/15 17:43:01 [notice] 5448#4100: signal process started
+2020/06/15 17:43:02 [emerg] 14060#10984: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/15 17:44:01 [notice] 15924#18952: signal process started
+2020/06/15 17:44:01 [emerg] 14060#10984: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/15 17:50:03 [notice] 14868#13516: signal process started
+2020/06/17 11:09:10 [notice] 15104#14284: signal process started
+2020/06/17 11:09:14 [notice] 20308#12824: signal process started
+2020/06/20 14:22:59 [notice] 5320#1892: signal process started
+2020/06/20 14:25:15 [notice] 14000#20100: signal process started
+2020/06/20 22:45:01 [notice] 7572#5596: signal process started
+2020/06/20 22:45:03 [notice] 21956#19172: signal process started
+2020/06/21 13:54:47 [notice] 16496#16692: signal process started
+2020/06/21 13:54:47 [emerg] 17116#17120: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/21 13:54:50 [notice] 17372#2092: signal process started
+2020/06/21 13:54:50 [emerg] 17116#17120: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/21 13:57:38 [emerg] 14972#16940: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/06/22 17:05:09 [notice] 19136#19608: signal process started
+2020/06/22 17:05:11 [notice] 108#19520: signal process started
+2020/06/22 17:07:56 [notice] 2616#5992: signal process started
+2020/06/22 23:46:22 [notice] 16548#11864: signal process started
+2020/06/22 23:46:23 [notice] 13812#14964: signal process started
+2020/07/05 21:57:16 [error] 18896#19008: *2440 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: www.leyou.com, request: "GET /item/124.html HTTP/1.1", upstream: "http://127.0.0.1:8084/item/124.html", host: "www.leyou.com", referrer: "http://www.leyou.com/search.html?key=%E6%89%8B%E6%9C%BA"
